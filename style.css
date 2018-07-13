@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-	margin: 5px;
+	margin: 35px;
 	clear: both;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -21,8 +21,10 @@ p {
 	text-align: center;
 	width: 30%;
 	float: right;
-	position: relative;
+	position: absolute;
 	margin: 0;
+	top: 0;
+	right: 0;
 }
 
 #p2 {
@@ -31,8 +33,10 @@ p {
 	text-align: center;
 	width: 30%;
 	float: right;
-	position: relative;
+	position: absolute;
 	margin: 0;
+	top: 0;
+	right: 0;
 }
 
 #p3 {
@@ -41,8 +45,10 @@ p {
 	text-align: center;
 	width: 30%;
 	float: right;
-	position: relative;
+	position: absolute;
 	margin: 0;
+	top: 0;
+	right: 0;
 }
 
 #container1 > div #p1 {
@@ -203,12 +209,12 @@ section > div {
     width: 100%;
   }
   #p1 {
-  	width: 15%;
+  	width: 30%;
   }
   #p2 {
-  	width: 15%;
+  	width: 30%;
   }
   #p3 {
-  	width: 15%;
+  	width: 30%;
   }
 }
